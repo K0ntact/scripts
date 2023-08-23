@@ -6,6 +6,9 @@ sudo apt-get install -y openjdk-8-jdk
 echo "JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64" >> ~/.bashrc
 source ~/.bashrc
 
+# Install neofetch
+sudo apt-get install -y neofetch
+
 # Install Hadoop
 HADOOP_URL="https://dlcdn.apache.org/hadoop/common/hadoop-3.3.2/hadoop-3.3.2.tar.gz "
 wget $HADOOP_URL
